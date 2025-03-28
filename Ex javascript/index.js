@@ -5,6 +5,8 @@
 // //     { equipeA: "PSG", equipeB: "Marseille", scoreA: 2, scoreB: 2 }
 // //   ];
 
+const { log } = require("console");
+
 
 // //   const equipes = matchs.flatMap(match => [
 // //       match.scoreA > 2 ? match.equipeA : null,
@@ -131,3 +133,46 @@
 
 // // const joueurs = ["Messi", "Ronaldo", "Neymar", "Messi", "Mbappé", "Neymar"];
 // // // Ton code ici
+
+
+
+// function getInfo({name, age}){
+//     console.log(`name:${name},age:${age}`);
+// }
+
+
+// let user={name:'kaaali',age:45};
+
+// getInfo(user);
+
+// function*  generateNumbers(n) {
+//     for (let i = 1; i <= n; i++) {
+//       yield i;
+//     }
+//   }
+  
+//   const gen = generateNumbers(2);
+//   console.log(gen.next().value);  // Affiche 1
+//   console.log(gen.next().value);
+
+
+
+// const table = [7,5,8,9,5,1,2,5,5,4];
+
+// for(let i=table.length; i>0; i--){
+//     console.log(table[i-1])
+// }
+
+
+
+// function dilterOddNumbers(table){
+//     let oddNumbers = [];
+//     for(let i =0 ;i<table.length;i++){
+//         if(table[i] % 2 !==0){
+//             oddNumbers.push(table[i]);
+//         }
+//     }
+//     return oddNumbers;
+// }
+
+// console.log(dilterOddNumbers(table));
